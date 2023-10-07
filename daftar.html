@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIT FOR LIFE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="check/cek.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h1>Fit For Life</h1>
+        </div>
+    </nav>
+    <div class="container-reg">
+        <div class="main-container">
+            <h2>Daftar</h2>
+            <p>Sign up for your account</p>
+            <form id="daftarForm" onsubmit="registerUser(); return false;">
+                <div class="form-container">
+                    <label class="label-form" for="newUsername">Username</label>   
+                    <input class="input-form" type="text" id="newUsername" name="newUsername" required>
+                </div>
+                <div class="form-container">
+                    <label class="label-form" for="newEmail">Email</label>
+                    <input class="input-form" type="email" id="newEmail" name="newEmail" required>
+                </div>
+                <div class="form-container">
+                    <label class="label-form" for="newPassword">Password</label>
+                    <input class="input-form" type="password" id="newPassword" name="newPassword" required>
+                </div>
+                <div>
+                    <button type="submit">Daftar</button>
+                </div>
+            </form>
+            <a href="./login.html">kembali</a>
+        </div>
+    </div>
+    <script src="form.js"></script>
+</body>
+</html>

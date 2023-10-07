@@ -1,0 +1,263 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.wrapper {
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+
+.logo h1 {
+    font-size: 40px;
+    font-weight: bold;
+    float: left;
+    font-family: courier;
+    color: white;
+    padding: 1rem;
+}
+
+.menu {
+    float: right;
+}
+
+
+
+.title {
+    text-align: center;
+    padding: 20px 0;
+    color: #317154;
+}
+
+.form-container {
+    margin-bottom: 20px;
+}
+
+.label-form {
+    text-align: left;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.form-container {
+    margin-bottom: 20px;
+}
+.label-form {
+    text-align: left;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 10px;
+    background-color: #317154;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+    margin: 10px;
+    }
+
+    
+a {
+    color: #317154;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.title-container {
+    text-align: center;
+}
+
+.content-goup {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.content-btn .button {
+    margin: 10px;
+}
+
+.content-cek {
+    margin: 0 auto;
+    color: #317154;
+    background: #ffff;
+    box-shadow: 0px 0px 5px rgba(153, 168, 155, 0.75);
+    border-radius: 15px;
+    padding: 30px;
+    max-width: 400px;
+    text-align: center;
+} 
+
+.content-btr .button {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.content-btr .button {
+    border: none;
+    margin: 15px;
+    padding: 15;
+}
+
+.content-cek .label-form {
+    text-align: left;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.content-cek .input-form {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border: 1px solid #317154;
+    border-radius: 15px;
+    width: 80%;
+}
+
+.profile-container {
+    margin: 0 auto;
+    color: #317154;
+    background: white;
+    border-radius: 15px;
+    padding: 30px;
+    max-width: 400px;
+    text-align: center;
+}
+.content-cek {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.form-container {
+    margin: 10px 0;
+    text-align: left;
+
+}
+
+.button {
+    display: flex;
+    justify-content: space-around;
+}
+
+input[type="number"] {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #317154;
+    border-radius: 1px;
+}
+
+input[type="text"] {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #317154;
+    border-radius: 1px;
+}
+
+input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #317154;
+    border-radius: 1px;
+}
+
+input[type="email"] {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #317154;
+    border-radius: 1px;
+}
+
+.result{
+    margin: 0 auto;
+    color: #317154;
+    background: #ffff;
+    box-shadow: 0px 0px 5px rgba(153, 168, 155, 0.75);
+    border-radius: 15px;
+    padding: 30px;
+    max-width: 400px;
+    text-align: center;
+} 
+
+#hasil-result {
+    margin-top: 20px;
+    font-weight: bold;
+    margin: 0 auto;
+    color: #317154;
+    background: #ffff;
+    box-shadow: 0px 0px 5px rgba(153, 168, 155, 0.75);
+    border-radius: 15px;
+    padding: 30px;
+    max-width: 400px;
+    text-align: center;
+}
+
+#cek{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    padding: 2rem;
+    background: #d9d9d9;
+}
+#result{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    padding: 2rem;
+    background: #d9d9d9;
+}
+
+.container{
+    margin: 0 auto;
+    color: #317154;
+    background: #ffff;
+    box-shadow: 0px 0px 5px rgba(153, 168, 155, 0.75);
+    border-radius: 15px;
+    padding: 30px;
+    max-width: 400px;
+    text-align: center;
+} 
+
+.container-log{
+    margin: 0 auto;
+    color: #317154;
+    background: #ffff;
+    box-shadow: 0px 0px 5px rgba(153, 168, 155, 0.75);
+    border-radius: 15px;
+    padding: 30px;
+    max-width: 400px;
+    text-align: center;
+    margin-top: 50px;
+} 
+
+.container-reg{
+    margin: 0 auto;
+    color: #317154;
+    background: #ffff;
+    box-shadow: 0px 0px 5px rgba(153, 168, 155, 0.75);
+    border-radius: 15px;
+    padding: 30px;
+    max-width: 400px;
+    text-align: center;
+    margin-top: 50px;
+} 
+

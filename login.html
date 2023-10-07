@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIT FOR LIFE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="check/cek.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h1>Fit For Life</h1>
+        </div>
+    </nav>
+    <div class="container-log">
+        <div class="main-container">
+            <h2>Log in</h2>
+            <p>Sign in to your account</p>
+            <form id="loginForm" action="main.html" method="post">
+                <div class="form-container">
+                    <label class="label-form" for="username">Username : </label>   
+                    <input class="input-form" type="text" id="username" name="username" required>
+                </div>
+                <div class="form-container">
+                    <label class="label-form" for="password">Password : </label>
+                    <input class="input-form" type="password" id="password" name="password" required>
+                </div>
+                <a href="./daftar.html" class="forgot-password">Lupa Password?</a>
+                <div>
+                    <button type="submit">LOGIN</button>
+                </div>
+                <a href="./daftar.html">Daftar</a>
+            </form>
+            <div class="google-login">   
+            </div>
+        </div>
+    </div>
+    <script src="form.js"></script>
+</body>
+</html>
