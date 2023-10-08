@@ -13,7 +13,7 @@ let selectedGender;
             const tinggi = parseFloat(document.getElementById("tinggi").value);
 
             if (isNaN(berat) || isNaN(tinggi) || !selectedGender) {
-                alert("Masukkan berat, tinggi, dan pilih jenis kelamin terlebih dahulu.");
+                alert("Lengkapi data.");
                 return;
             }
 
